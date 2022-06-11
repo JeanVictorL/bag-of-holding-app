@@ -1,7 +1,7 @@
 export default function CoinElement(props) {
     return (
         <div>
-            <h1>{props.name}</h1>
+            <h3>{props.name}</h3>
             <input type="text" />
         </div>
     )
