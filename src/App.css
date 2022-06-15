@@ -1,0 +1,42 @@
+@import url('https://rsms.me/inter/inter.css');
+html { font-family: 'Inter', sans-serif; }
+@supports (font-variation-settings: normal) {
+  html { font-family: 'Inter var', sans-serif; }
+}
+
+*{
+    background: #696969;
+}
+
+.coins {
+    float: right;
+    margin-right: 80px;
+}
+
+input.coin {
+    width: 80px;
+    height: 30px;
+    background: #D9D9D9;
+    border-radius: 15px;
+    border-width: 0px;
+    display: block;
+    margin : 0 auto;
+}
+
+input.totalGold {
+    width: 120px;
+}
+
+.coinName {
+    margin-bottom: 0;
+    
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;    
+    
+
+    color: #000000;
+}
